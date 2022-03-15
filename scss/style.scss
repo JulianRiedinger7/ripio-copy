@@ -1,0 +1,105 @@
+$bx-shadow: 0 0 20px 0 gray;
+@import "colors";
+@import "bgimages";
+@import "medias";
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    height: 150vh;
+}
+
+nav{
+    ul{
+        li{
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.card-img-top {
+    width: 40%;
+}
+
+.card{
+    border-radius: 20px;
+    width: 20rem;
+    box-shadow: $bx-shadow;
+    transition: all .7s;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-2rem);
+    }
+}
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+.position-relative{
+    bottom: 4rem;
+}
+
+.img-small{
+    width: 25%;
+}
+
+.rounded-3{
+    box-shadow: $bx-shadow;
+    width: 60%;
+    transition: all .7s;
+    &:hover{   
+        transform: translateY(-2rem);
+        cursor: pointer;
+        .text-dark,
+        .text-secondary{
+            color: $violeta !important;
+            transition: .7s;
+        }
+    }
+}
+
+ul{
+    list-style-type: none;
+    li{
+        text-align: left;
+        padding-left: 1.5rem;
+        a{
+        
+            font-size: .8rem;
+            text-decoration: none;
+            color: $color_primario;
+            &:hover{
+                color: $color_primario;
+            }
+        }
+    }
+    
+}
+
+footer{
+    position: relative;
+    z-index: 5;
+}
+
+.footer-hr{
+    color: white;
+    background-color: white;
+    filter: brightness(9);
+}
+
+.text-white{
+    filter: brightness(9);
+}
+
+.footer-text{
+    font-size: .6rem;
+}
+
+.img-crypto{
+    height: 115%;
+}

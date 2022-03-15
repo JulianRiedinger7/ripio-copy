@@ -1,0 +1,51 @@
+@media screen and (min-width: 1200px){
+    .acceso-p{
+        width: 30%;
+    }
+
+    .control-p{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 768px){
+    .header-bg{
+        background-image: url(../img/header-bg-mobile.png);
+    }
+
+
+    .acceso-bg{
+        background-image: url(../img/acceso-bg-mobile.png);
+        background-size: inherit;
+    }
+
+    .control-bg{
+        background-image: url(../img/control-bg-mobile.png);
+        background-size: inherit;
+    }
+
+    .footer-text{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .justify{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .center-medium{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-text{
+        width: 100%;
+    }
+    
+}

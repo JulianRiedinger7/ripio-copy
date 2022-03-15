@@ -1,0 +1,19 @@
+.header-bg{
+    background-image: url(../img/header-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.acceso-bg{
+    @extend .header-bg;
+    background-image: url(../img/acceso-bg.png);
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.control-bg{
+    @extend .acceso-bg;
+    background-image: url(../img/control-bg.png);
+    background-position: left;
+}
