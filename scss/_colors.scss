@@ -30,10 +30,11 @@ body{
 .btn-outline-dark:hover {
     color: $color_primario;
 }
-.btn:hover {
-    color: none;
+.btn-outline-light:hover {
+    color: $color_primario;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
-
 .navbar-dark .navbar-brand {
     color: $color_primario;
     filter: brightness(9);
